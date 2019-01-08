@@ -1,0 +1,54 @@
+
+.testbackground {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.underline{
+  width: 10%;
+  height: 1px;
+  background-color: black;
+}
+
+.skills-holder {
+  width: 100%;
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-holder{
+  background: rgba(153, 153, 153, 0.212);
+  height: 65vh;
+  justify-content: center;
+}
+.skills-holder > h4 {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Raleway;
+  margin-bottom: 2%;
+}
+.icon-holder,.studies-icon-holder {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+  
+  width: 55%;
+}
+.icon-holder{
+  width: 55%;
+  height: 85%;
+}
+
+.skills-icon {
+  margin: 0 5% 0% 5%;
+  transition: opacity 0.6s;
+  /* mix-blend-mode: multiply; */
+}
+.skills-icon:hover {
+  opacity: 0.5;
+}

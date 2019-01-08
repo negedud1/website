@@ -1,0 +1,25 @@
+#initial-setup {
+    display: flex;
+    align-content: center;
+}
+
+
+#landingpage {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-image: url(http://media2.govtech.com/images/770*1000/shutterstock_computer_programming.jpg);
+    opacity: 0.9;    
+}
+
+
+
+.lead-content h1{    
+    color: yellow;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+}
+

@@ -1,0 +1,53 @@
+#projects {   
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #333; 
+    background: rgba(153, 153, 153, 0.212);
+}
+
+.project {
+    align-self: center;
+}
+
+.row1 {    
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.project-holder {
+  width: 100%;
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-image {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    
+}
+
+
+.project-image img {
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    transition: all .3s ease;
+    width: 468px;
+    height: 300px;
+}
+
+.project-image .back {
+    opacity: 0;
+}
+
+.project-image:hover .front {
+    opacity: 0;
+}
+
+.project-image:hover .back {
+    opacity: 1;
+}
+
